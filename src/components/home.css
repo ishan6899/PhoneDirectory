@@ -18,6 +18,15 @@
 
 }
 
+.delete1{
+    padding:15px;
+    background-color: deeppink;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+
+}
+
 div h1{
     margin-bottom: 10px;
 }
