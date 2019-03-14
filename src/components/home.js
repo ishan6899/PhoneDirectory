@@ -97,7 +97,7 @@ class Message1 extends Component{
                     <p>
                         {obj.number}
                     </p>
-                    <button id={obj.num}  onClick={()=>this.deleteContact(obj)}>
+                    <button id={obj.num} className='delete1' onClick={()=>this.deleteContact(obj)}>
                     Delete
                     </button>
                 </div>
