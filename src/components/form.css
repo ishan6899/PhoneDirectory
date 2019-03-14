@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    margin-bottom: 0px;
+    
+}
+p{
+    margin-top:0px;
+}
+.heading
+{
+    color:deeppink;
+    float: left;
+   
+    margin-top: 0px;
+   
+    display: block;
+   
+}
+header button{
+    padding:20px;
+    background-color:deeppink;
+    color:white;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 15px;
+
+}
+
+form{
+    width:50%;
+    margin:auto;
+    border:2px solid deeppink;
+    border-radius: 10px;
+    margin-top:50px;
+    padding:20px;
+}
+input{
+   width:100%;
+   padding:20px;
+   font-size:20px;
+}
+
+form p{
+    color:rgba(31, 55, 105);;
+    margin:5px;
+    font-size:20px;
+}
+header{
+    display: block;
+    background-color: white;
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.submit1{
+    padding:20px;
+    color:white;
+    background-color: deeppink;
+    border-radius: 0px 40px;
+    width:20%;
+    margin-top:30px;
+}
+
+h3{
+    text-align: left;
+    margin-top: 40px;
+    font-size:28px;
+    border:2px solid rgba(31, 55, 105);;
+    border-radius:0px 25px 25px 0px;
+    padding:20px;
+    color:white;
+    background-color: rgba(31, 55, 105);
+    width:50%;
+}
+
+#p1
+{
+    font-size: 20px;
+    color:rgba(31, 55, 105);
+    padding:20px;
+}
+#p2
+{
+    font-size: 20px;
+    color:rgba(31, 55, 105);
+    padding:20px;
+}
+#last
+{
+    min-height: 200px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h2{font-size: 20px;}
+    p{font-size:15px;}
+    form{
+        margin:0px;
+        width:100%;
+        margin-top:30px;
+
+    }
+    .submit1{
+        width:100%;
+    }
+    h3{
+        font-size:20px;
+        width:70%;
+    }
+  }
+  
+ table{
+     text-align: center;
+     padding:50px;
+ }
